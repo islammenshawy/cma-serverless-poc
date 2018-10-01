@@ -10,6 +10,7 @@
   "dependencies": {},
   "devDependencies": {
     "jest": "^21.2.1",
+    "serverless": "^1.32.0",
     "serverless-azure-functions": "^0.6.0"
   },
   "scripts": {
