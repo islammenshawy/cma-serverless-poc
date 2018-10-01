@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: sudo apt-get install apt-utils g++ libsecret-1-dev libgnome-keyring-dev
-      - run: npm install -g serverless
+      - run: sudo npm install -g serverless
       - run: npm install
 
       - save_cache:
