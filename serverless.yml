@@ -11,13 +11,14 @@ service: hello-world-cd
 package:
   exclude:
   - coverage/**
-  - .circleci/**
   - node_modules/**
   - .gitignore
   - package.json
   - .git/** 
   - .circleci/**
   - .serverless/**
+  - .vscode/**
+  - .idea/**
 
 # The `provider` block defines where your service will be deployed
 provider:
