@@ -14,5 +14,5 @@
         }
     ],
     "entryPoint": "hello",
-    "scriptFile": "handler.js"
+    "scriptFile": "src/js/cma/hello/handler.js"
 }

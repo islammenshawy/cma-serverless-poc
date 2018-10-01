@@ -1,0 +1,25 @@
+{
+  "name": "cma-service-poc",
+   "engines": {
+    "node": ">=6.10"
+  },
+  "version": "1.0.0",
+  "description": "Azure Functions sample for the Serverless framework",
+  "main": "src/js/cma/hello/handler.js",
+  "keywords": [
+    "azure",
+    "serverless"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "lcov", "html", "text"]
+  },
+  "devDependencies": {
+    "serverless-azure-functions": "*",
+    "jest": "^21.2.1"
+
+  }
+}
