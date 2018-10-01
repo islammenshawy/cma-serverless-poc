@@ -9,14 +9,20 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "^21.2.1"
+    "jest": "^21.2.1",
+    "serverless-azure-functions": "^0.6.0"
   },
   "scripts": {
     "test": "jest"
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["json", "lcov", "html", "text"]
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "html",
+      "text"
+    ]
   },
   "author": "Rupak Ganguly",
   "license": "MIT"

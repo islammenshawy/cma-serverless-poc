@@ -12,11 +12,21 @@ package:
   exclude:
   - coverage/**
   - .circleci/**
+  - node_modules/**
+  - .gitignore
+  - package.json
+  - .git/** 
+  - .circleci/**
+  - .serverless/**
 
 # The `provider` block defines where your service will be deployed
 provider:
-  name: aws
+  name: azure
+  location: West US
   runtime: nodejs6.10
+
+plugins:
+  - serverless-azure-functions
 
 # The `functions` block defines what code to deploy
 functions:
