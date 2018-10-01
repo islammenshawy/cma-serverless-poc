@@ -38,3 +38,7 @@ jobs:
       # run tests!
       - run: npm test --coverage
       - run: serverless deploy
+      - save_cache:
+          paths:
+            - node_modules
+          key: dependencies-cache-{{ checksum "package.json" }}
