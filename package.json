@@ -9,6 +9,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "ajv": "^6.5.4",
     "jest": "^21.2.1",
     "serverless": "^1.32.0",
     "serverless-azure-functions": "^0.6.0"

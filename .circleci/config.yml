@@ -27,6 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: sudo apt-get install apt-utils g++ libgnome-keyring-dev
+      - run: npm install ajv
       - run: npm install
 
       - save_cache:
